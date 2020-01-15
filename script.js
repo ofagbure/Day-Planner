@@ -1,3 +1,4 @@
+\
 $("button").click(function () {
 
     var input = $(this).siblings('input');
@@ -18,3 +19,9 @@ $("#hr3").val(localStorage.getItem("hr3"))
 $("#hr4").val(localStorage.getItem("hr4"))
 $("#hr5").val(localStorage.getItem("hr5"))
 
+// define moment.js
+
+
+// if statement, if time is less than moment.js, set attribute/style of input area to grey
+// else if time is greater than moment.js, set attribute/style of input to green
+// else if time is equal to moment.js, set attribute/style of input to red
