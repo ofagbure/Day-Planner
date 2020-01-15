@@ -1,4 +1,3 @@
-\
 $("button").click(function () {
 
     var input = $(this).siblings('input');
